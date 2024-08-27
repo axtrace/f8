@@ -15,6 +15,11 @@ const glob = require('glob');
 const {debounce} = require('lodash');
 const open = require('open');
 
+import markit from "markdown-it";
+import plantuml from "markdown-it-plantuml-ex2";
+const md = markit();
+md.use(plantuml);
+
 class Server {
   // read configuration
   constructor(parameters = {}) {
