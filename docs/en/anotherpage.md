@@ -1,7 +1,4 @@
-import markit from "markdown-it";
-import plantuml from "markdown-it-plantuml-ex2";
-const md = markit();
-md.use(plantuml, options);
+const fs = require('markdown-it-plantuml-ex2');
 
 # Simple documentation project with YFM
 ## Header 2 level
