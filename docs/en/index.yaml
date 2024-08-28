@@ -8,3 +8,5 @@ links:
     href: anotherpage.md
   - title: Sub-section on index page
     href: sub-section/
+  - title: mermaid
+    href: diag.mermaid  
