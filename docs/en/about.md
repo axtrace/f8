@@ -1,6 +1,28 @@
 # Pirog
 Ну какой еще сюда можно добавить заголовок?
 
+# Mermaid
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#FDF3E8',
+      'primaryTextColor': '#000000',
+      'primaryBorderColor': '#BA9C80',
+      'lineColor': '#BA9C80',
+      'secondaryColor': '#94E1C4',
+      'tertiaryColor': '#F84E57',
+      'noteBkgColor': '#FED58D'
+    }
+  }
+}%%
+
+sequenceDiagram
+    participant Merchant as Ваш магазин
+    participant Market as Яндекс Маркет
+```
+
 # Basic "About page" 
 
 This is an example for basic documenation project.
